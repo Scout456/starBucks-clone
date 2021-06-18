@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Coffee</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+			integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		 <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+		
+		
+	</head>
+	<body>
+		<nav class="navbar">
+			<span class="open-slide">
+				<a href="#" onclick="openSlideMenu()">
+        	<i class="fas fa-bars fa-2x"></i>
+				</a>
+			</span>
+      
+			<ul class="navbar-nav">
+				<li>
+					<a href="#"><img src="images/starbucks.png" width="60" /></a>
+				</li>
+				<div class="menu">
+					<li><a href="#">Menu</a></li>
+					<li><a href="#">Rewards</a></li>
+					<li><a href="#">Gift Cards</a></li>
+				</div>
+				
+				<div class="signIn">
+					<li>
+						<a href="#" class="fas fa-map-marker-alt"></a>
+					</li>
+					<li><a href="#">Find a store</a></li>
+					<li><a href="#"><button class="sign-in">Sign in</button></a></li>
+					<li></li><a href="#"><button class="joinNow">Join now</button></a></li>
+				</div>
+			</ul>
+		</nav>
+		<div id="side-menu" class="side-nav">
+			<a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+			<!--&times; gives the X icon-->
+			<a href="#">Menu</a>
+			<a href="#">Rewards</a>
+			<a href="#">Gift Cards</a>
+			<div class="line"></div>
+			<div class="drop">
+		<button class="sign">Sign in</button>
+		<button class="join"> Join now</button>
+		</div>
+		</div>
+
+		 <div class="clearFloat"></div>
+		
+		<div class="mask">
+				<p>
+					We require facial coverings in all stores to protect the health<br />
+					of our customers and partners (employees), and help stop<br />
+					the spread of COVID-19. Learn more
+				</p>
+			</div>
+			<div class="mainCol">
+				<p class="image"><img src="images/star.webp" width="500px" /></p>
+					<p class="freeCoffee">
+						FREE COFFEE IS A TAP AWAY <br />Join now to start earning
+						Rewards.*<br />
+						<button class="join">Join now</button>
+					</p>
+				</div>
+				 <div class="clearFloat"></div>
+
+				 <div class="orderPic">
+					 <img src="images/orderPic.webp" class="cellPhone">
+					 <h1 class="pickUp">Order and pick up.  Easy as that.</h1>
+					 <p class="openApp">Just open the app, order your favorites, and enjoy contactless pay.  From there, choose</br>whichever pickup method is best for you.</p>
+					 <button class="pickupOptions">See pickup options</button>
+				 </div>
+
+				 	 <div class="uberEats">
+					 <img src="images/bucks.jpg" class="picnic">
+					 <h1 class="picnic">Let us bring the picnic to you.</h1>
+					 <p class="fee">Enjoy $0 Delivery Fee on Starbucks orders over $20 on UberEats through May 31.**</p>
+					 <button class="pickupOptions">Order now</button>
+				 </div>
+
+				 	 <div class="creditCard">
+					 <img src="images/card.jpg " class="center">
+					 <h1 class="bonus">Earning 4,500 Bonus Stars is Super Starifying</h1>
+					 <p class="delivery">Enjoy $0 Delivery Fee on Starbucks orders over $20 on UberEats through May 31.**</p>
+					 <button class="pickupOptions">Learn more</button>
+				 </div>
+
+				 <div class="egiftCard">
+					 <p>*For every Starbucks eGift Card in our Military Appreciation Month category sold<br/> May 1-31, we'll donate $5 to Blue Star Families and Operation Gratitude to support<br/> the mental health and well-being of our military community. Donations will be<br/> evenly divided between the two organizations. Learn more at <a href="https://bluestarfam.org">bluestarfam.org</a> and<br/> <a href="https://www.operationgratitude.com">operationgratitude.com</a></p>
+					 <p class="participating">
+						 **At participating stores.  Some restrictions apply. See <a href="https://starbucks.com/rewards">starbucks.com/rewards.</a>
+					 </p>
+				 </div>
+
+		 <div class="main">
+			<h3>About us</h3>
+			<div class="custom-select-wrapper">
+			<div class="custom-select">
+				<div class="custom-select__trigger">
+					<span></span>
+					<div class="arrow"></div>
+				</div>
+				<div class="custom-options">
+					<span class="custom-option selected" data-value="coffee">Our Coffee</span>
+					<span class="custom-option" data-value="news">Stories and News</span>
+					<span class="custom-option" data-value="investor">Investor Relations</span>
+					<span class="custom-option" data-value="policies"> Policies and Standards</span>
+					<span class="custom-option" data-value="service"> Customer Service</span>
+				</div>
+			</div>
+		</div>
+					
+					 
+           <h3> Careers</h3>
+					 <div class="custom-select-wrapper">
+						 <div class="custom-select">
+							 <div class="custom-select__trigger">
+								 <span></span>
+								 <div class="arrow"></div>
+								 </div>
+						<div class="custom-options">
+						 <span class="custom-option selected" data-value="culture">Culture and Values</span>
+						 <span class="custom-option" data-value="diversity">Inclusion, Diversity, and Equity</span>
+						 <span class="custom-option" data-value="college">College Achievement Plan</span>
+						 <span class="custom-option" data-value="careers">U.S. Careers</span>
+						 <span class="custom-option" data-value="international">International Careers</span>
+					</div>
+				</div>
+			</div>
+					 
+					 <h3>Social Impact</h3>
+					 <div class="custom-select-wrapper">
+						<div class="custom-select">
+							<div class="custom-select__trigger">
+							<span></span>
+							<div class="arrow"></div>
+              </div>
+							<div class="custom-options">
+						    <span class="custom-option selected" data-value="ethical">Ethical Sourcing</span>
+								<span class="custom-option" data-value="leading"> Leading in Sustainability</span>
+						    <span class="custom-option" data-value="strength">Strengthening Communities</span>
+						    <span class="custom-option" data-value="opportunties">Creating Opportunities</span>
+						    <span class="custom-option" data-value="impact"> Global Social Impact Report</span>
+						</div>
+					</div>
+				 </div>
+				 
+
+						<h3>For Business partners</h3>
+						<div class="custom-select-wrapper">
+						 <div class="custom-select">
+							 <div class="custom-select__trigger">
+								 <span></span>
+								 <div class="arrow"></div>
+							 </div>
+							 <div class="custom-options">
+								 <span class="custom-option selected" data-value="support">Landlord Support Center</span>
+								 <span class="custom-option" data-value="suppliers">Suppliers</span>
+								 <span class="custom-option" data-value="gift card">Corporate Gift Card Sales</span>
+								 <spam class="custom-option" data-value="offoce">Office and Foodservice Coffee</spam>
+						</div>
+					 </div>
+					</div>
+
+						<h3>Order and Pickup</h3>
+						<div class="custom-select-wrapper">
+						<div class="custom-select">
+							<div class="custom-select__trigger">
+								<span></span>
+								<div class="arrow"></div>
+							</div>
+							<div class="custom-options">
+								<span class="custom-option selected" data-value="app">Order on the App</span>
+								<span class="custom-option" data-value="order">Order on the Web</span>
+								<span class="custom-option" data-value="deliver">Delivery</span>
+								<span class="custom-option" data-value="pickup">Order and Pickup Options</span>
+								<span class="custom-option" data-value="explore">Explore and Find Coffee for Home<</span>
+						</div>
+					 </div>
+					</div>
+					</div>
+          
+				 <div class nav-container>
+					<nav>
+						<a href="https://open.spotify.com/user/starbucks"><i class="fab fa-spotify fa-2x circle-icon"></i></a>
+						<a href="https://www.facebook.com/Starbucks/"><i class="fab fa-facebook fa-2x circle-icon"></i></a>
+						<a href="https://www.pinterest.com/starbucks/"><i class="fab fa-pinterest fa-2x circle-icon"></i></a>
+						<a href="https://www.instagram.com/starbucks/"><i class="fab fa-instagram-square fa-2x circle-icon"></i></a>
+						<a href="https://www.youtube.com/starbucks"><i class="fab fa-youtube-square fa-2x circle-icon"></i></a>
+						<a href="https://twitter.com/starbucks/"><i class="fab fa-twitter-square fa-2x circle-icon"></i></a>
+					</nav>
+					</div>
+				 
+		
+
+		<script>
+			function openSlideMenu() {
+				document.getElementById("side-menu").style.width = "100vw";
+
+				document.getElementById("main").style.marginLeft = "100vw";
+			}
+
+			function closeSlideMenu() {
+				document.getElementById("side-menu").style.width = "0px";
+
+				document.getElementById("main").style.marginLeft = "0px";
+			}
+		</script>
+
+		<script src="coffee.js"></script>
+	</body>
+</html>
